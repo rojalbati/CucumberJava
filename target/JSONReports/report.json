@@ -1,0 +1,620 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-29T18:44:38.981Z",
+        "line": 15,
+        "name": "Validate Google search is working",
+        "description": "",
+        "id": "feature-to-test-google-search-functionality;validate-google-search-is-working;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8354000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on google search page",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters a Apple in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.GooglSearchSteps.user_enters_a_text_in_search_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2786000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "hits enter",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4326000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to search results page Apple",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.GooglSearchSteps.user_is_navigated_to_search_results_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T18:44:54.650Z",
+        "line": 26,
+        "name": "Validate Google search is working",
+        "description": "",
+        "id": "feature-to-test-google-search-functionality;validate-google-search-is-working;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7164000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on google search page",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters a Ball in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ball",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.GooglSearchSteps.user_enters_a_text_in_search_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2149000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "hits enter",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4336000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is navigated to search results page Ball",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ball",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.GooglSearchSteps.user_is_navigated_to_search_results_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T18:45:08.388Z",
+        "line": 27,
+        "name": "Validate Google search is working",
+        "description": "",
+        "id": "feature-to-test-google-search-functionality;validate-google-search-is-working;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7134000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on google search page",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters a Cat in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cat",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.GooglSearchSteps.user_enters_a_text_in_search_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1543000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "hits enter",
+            "match": {
+              "location": "StepDefinitions.GooglSearchSteps.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4332000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is navigated to search results page Cat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cat",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.GooglSearchSteps.user_is_navigated_to_search_results_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test Google search functionality",
+    "description": "",
+    "id": "feature-to-test-google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
+    "tags": [
+      {
+        "name": "@regressiontest",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-29T18:45:21.484Z",
+        "line": 15,
+        "name": "Log in using correct email and correct password",
+        "description": "",
+        "id": "feature-to-test-login-functionality;log-in-using-correct-email-and-correct-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9927000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2269000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter email@email.com and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email@email.com",
+                  "offset": 11
+                },
+                {
+                  "val": "password",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is redirected to Landingpage",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_redirected_to_landingpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is notified of successfull login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_notified_of_successfull_login()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T18:45:38.897Z",
+        "line": 25,
+        "name": "Log in using incorrect email and password combination",
+        "description": "",
+        "id": "feature-to-test-login-functionality;log-in-using-incorrect-email-and-password-combination;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9452000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1568000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter incorrectemail@email.com and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "incorrectemail@email.com",
+                  "offset": 11
+                },
+                {
+                  "val": "password",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5171000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "error message is shown",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.error_message_is_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T18:45:55.175Z",
+        "line": 26,
+        "name": "Log in using incorrect email and password combination",
+        "description": "",
+        "id": "feature-to-test-login-functionality;log-in-using-incorrect-email-and-password-combination;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9426000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1630000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter email@email.com and incorrectpassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email@email.com",
+                  "offset": 11
+                },
+                {
+                  "val": "incorrectpassword",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5125000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "error message is shown",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.error_message_is_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T18:46:11.432Z",
+        "line": 36,
+        "name": "Log in using empty email and empty password",
+        "description": "",
+        "id": "feature-to-test-login-functionality;log-in-using-empty-email-and-empty-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9564000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1528000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter  and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "validation error message is shown",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.validation_error_message_is_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test Login Functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@regressiontest",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
