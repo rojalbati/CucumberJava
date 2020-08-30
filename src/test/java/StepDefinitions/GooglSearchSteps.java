@@ -43,7 +43,13 @@ public class GooglSearchSteps {
 
 	@Then("^user is navigated to search results page (.*)$")
 	public void user_is_navigated_to_search_results_page(String text) {
-		//System.out.println(driver.getTitle());
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// System.out.println(driver.getTitle());
 		Assert.assertTrue(driver.getTitle().contains(text));
 
 		driver.close();

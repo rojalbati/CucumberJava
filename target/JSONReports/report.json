@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-08-29T18:44:38.981Z",
+        "start_timestamp": "2020-08-30T14:01:23.961Z",
         "line": 15,
         "name": "Validate Google search is working",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8354000000,
+              "duration": 13323000000,
               "status": "passed"
             },
             "line": 7,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 76000000,
+              "duration": 70000000,
               "status": "passed"
             },
             "line": 9,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 2786000000,
+              "duration": 5774000000,
               "status": "passed"
             },
             "line": 10,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 4326000000,
+              "duration": 6435000000,
               "status": "passed"
             },
             "line": 11,
@@ -94,7 +94,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-29T18:44:54.650Z",
+        "start_timestamp": "2020-08-30T14:01:49.685Z",
         "line": 26,
         "name": "Validate Google search is working",
         "description": "",
@@ -104,7 +104,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7164000000,
+              "duration": 10500000000,
               "status": "passed"
             },
             "line": 18,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 19,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 57000000,
+              "duration": 63000000,
               "status": "passed"
             },
             "line": 20,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 2149000000,
+              "duration": 3805000000,
               "status": "passed"
             },
             "line": 21,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 4336000000,
+              "duration": 6190000000,
               "status": "passed"
             },
             "line": 22,
@@ -182,7 +182,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-29T18:45:08.388Z",
+        "start_timestamp": "2020-08-30T14:02:10.275Z",
         "line": 27,
         "name": "Validate Google search is working",
         "description": "",
@@ -192,7 +192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7134000000,
+              "duration": 14221000000,
               "status": "passed"
             },
             "line": 18,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 19,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 58000000,
+              "duration": 59000000,
               "status": "passed"
             },
             "line": 20,
@@ -234,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 1543000000,
+              "duration": 4560000000,
               "status": "passed"
             },
             "line": 21,
@@ -246,7 +246,7 @@
           },
           {
             "result": {
-              "duration": 4332000000,
+              "duration": 6138000000,
               "status": "passed"
             },
             "line": 22,
@@ -290,7 +290,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-08-29T18:45:21.484Z",
+        "start_timestamp": "2020-08-30T14:02:35.282Z",
         "line": 15,
         "name": "Log in using correct email and correct password",
         "description": "",
@@ -300,19 +300,19 @@
         "steps": [
           {
             "result": {
-              "duration": 9927000000,
+              "duration": 43236000000,
               "status": "passed"
             },
             "line": 7,
             "name": "user is on login page",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+              "location": "StepDefinitions.LoginSteps_POM.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2269000000,
+              "duration": 2449000000,
               "status": "passed"
             },
             "line": 8,
@@ -328,43 +328,43 @@
                   "offset": 31
                 }
               ],
-              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.LoginSteps_POM.user_enter_email_and_password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 71000000,
+              "duration": 83000000,
               "status": "passed"
             },
             "line": 9,
             "name": "click login button",
             "match": {
-              "location": "StepDefinitions.LoginSteps.click_login_button()"
+              "location": "StepDefinitions.LoginSteps_POM.click_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5000000000,
+              "duration": 5003000000,
               "status": "passed"
             },
             "line": 10,
             "name": "user is redirected to Landingpage",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_redirected_to_landingpage()"
+              "location": "StepDefinitions.LoginSteps_POM.user_is_redirected_to_landingpage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 127000000,
+              "duration": 118000000,
               "status": "passed"
             },
             "line": 11,
             "name": "user is notified of successfull login",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_notified_of_successfull_login()"
+              "location": "StepDefinitions.LoginSteps_POM.user_is_notified_of_successfull_login()"
             },
             "keyword": "And "
           }
@@ -379,7 +379,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-29T18:45:38.897Z",
+        "start_timestamp": "2020-08-30T14:03:26.182Z",
         "line": 25,
         "name": "Log in using incorrect email and password combination",
         "description": "",
@@ -389,19 +389,19 @@
         "steps": [
           {
             "result": {
-              "duration": 9452000000,
+              "duration": 12480000000,
               "status": "passed"
             },
             "line": 18,
             "name": "user is on login page",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+              "location": "StepDefinitions.LoginSteps_POM.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1568000000,
+              "duration": 2102000000,
               "status": "passed"
             },
             "line": 19,
@@ -417,31 +417,31 @@
                   "offset": 40
                 }
               ],
-              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.LoginSteps_POM.user_enter_email_and_password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 84000000,
+              "duration": 116000000,
               "status": "passed"
             },
             "line": 20,
             "name": "click login button",
             "match": {
-              "location": "StepDefinitions.LoginSteps.click_login_button()"
+              "location": "StepDefinitions.LoginSteps_POM.click_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5171000000,
+              "duration": 5140000000,
               "status": "passed"
             },
             "line": 21,
             "name": "error message is shown",
             "match": {
-              "location": "StepDefinitions.LoginSteps.error_message_is_shown()"
+              "location": "StepDefinitions.LoginSteps_POM.error_message_is_shown()"
             },
             "keyword": "Then "
           }
@@ -453,7 +453,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-29T18:45:55.175Z",
+        "start_timestamp": "2020-08-30T14:03:46.023Z",
         "line": 26,
         "name": "Log in using incorrect email and password combination",
         "description": "",
@@ -463,19 +463,19 @@
         "steps": [
           {
             "result": {
-              "duration": 9426000000,
+              "duration": 15902000000,
               "status": "passed"
             },
             "line": 18,
             "name": "user is on login page",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+              "location": "StepDefinitions.LoginSteps_POM.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1630000000,
+              "duration": 3634000000,
               "status": "passed"
             },
             "line": 19,
@@ -491,31 +491,31 @@
                   "offset": 31
                 }
               ],
-              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.LoginSteps_POM.user_enter_email_and_password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 71000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "line": 20,
             "name": "click login button",
             "match": {
-              "location": "StepDefinitions.LoginSteps.click_login_button()"
+              "location": "StepDefinitions.LoginSteps_POM.click_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5125000000,
+              "duration": 5168000000,
               "status": "passed"
             },
             "line": 21,
             "name": "error message is shown",
             "match": {
-              "location": "StepDefinitions.LoginSteps.error_message_is_shown()"
+              "location": "StepDefinitions.LoginSteps_POM.error_message_is_shown()"
             },
             "keyword": "Then "
           }
@@ -527,7 +527,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-29T18:46:11.432Z",
+        "start_timestamp": "2020-08-30T14:04:10.803Z",
         "line": 36,
         "name": "Log in using empty email and empty password",
         "description": "",
@@ -537,19 +537,19 @@
         "steps": [
           {
             "result": {
-              "duration": 9564000000,
+              "duration": 13788000000,
               "status": "passed"
             },
             "line": 29,
             "name": "user is on login page",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+              "location": "StepDefinitions.LoginSteps_POM.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1528000000,
+              "duration": 3626000000,
               "status": "passed"
             },
             "line": 30,
@@ -565,31 +565,31 @@
                   "offset": 16
                 }
               ],
-              "location": "StepDefinitions.LoginSteps.user_enter_email_and_password(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.LoginSteps_POM.user_enter_email_and_password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 61000000,
+              "duration": 83000000,
               "status": "passed"
             },
             "line": 31,
             "name": "click login button",
             "match": {
-              "location": "StepDefinitions.LoginSteps.click_login_button()"
+              "location": "StepDefinitions.LoginSteps_POM.click_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 128000000,
               "status": "passed"
             },
             "line": 32,
             "name": "validation error message is shown",
             "match": {
-              "location": "StepDefinitions.LoginSteps.validation_error_message_is_shown()"
+              "location": "StepDefinitions.LoginSteps_POM.validation_error_message_is_shown()"
             },
             "keyword": "Then "
           }

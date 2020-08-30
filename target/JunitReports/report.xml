@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="103.98">
-<testcase classname="Feature to test Google search functionality" name="Validate Google search is working" time="15.637">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="184.702">
+<testcase classname="Feature to test Google search functionality" name="Validate Google search is working" time="25.704">
 <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When user enters a Apple in search box......................................passed
@@ -8,7 +8,7 @@ And hits enter..............................................................pass
 Then user is navigated to search results page Apple.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test Google search functionality" name="Validate Google search is working 2" time="13.72">
+<testcase classname="Feature to test Google search functionality" name="Validate Google search is working 2" time="20.58">
 <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When user enters a Ball in search box.......................................passed
@@ -16,7 +16,7 @@ And hits enter..............................................................pass
 Then user is navigated to search results page Ball..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test Google search functionality" name="Validate Google search is working 3" time="13.079">
+<testcase classname="Feature to test Google search functionality" name="Validate Google search is working 3" time="24.993">
 <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When user enters a Cat in search box........................................passed
@@ -24,7 +24,7 @@ And hits enter..............................................................pass
 Then user is navigated to search results page Cat...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test Login Functionality" name="Log in using correct email and correct password" time="17.408">
+<testcase classname="Feature to test Login Functionality" name="Log in using correct email and correct password" time="50.9">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enter email@email.com and password................................passed
 And click login button......................................................passed
@@ -32,21 +32,21 @@ Then user is redirected to Landingpage......................................pass
 And user is notified of successfull login...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test Login Functionality" name="Log in using incorrect email and password combination" time="16.275">
+<testcase classname="Feature to test Login Functionality" name="Log in using incorrect email and password combination" time="19.838">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enter incorrectemail@email.com and password.......................passed
 And click login button......................................................passed
 Then error message is shown.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test Login Functionality" name="Log in using incorrect email and password combination 2" time="16.254">
+<testcase classname="Feature to test Login Functionality" name="Log in using incorrect email and password combination 2" time="24.774">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enter email@email.com and incorrectpassword.......................passed
 And click login button......................................................passed
 Then error message is shown.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature to test Login Functionality" name="Log in using empty email and empty password" time="11.294">
+<testcase classname="Feature to test Login Functionality" name="Log in using empty email and empty password" time="17.628">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enter  and .......................................................passed
 And click login button......................................................passed
